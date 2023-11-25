@@ -10,126 +10,227 @@
     <div class="container">
         <div class="header ">
             <div class="logo">
-                <img src="" alt="logo">
-            </div>
-            <div class="search">
-                <input placeholder="search">
+                <img src="./images/icon.svg" />
+                <p>ABC Company</p>
             </div>
             <div class="account">
-                <button class="alert">alert</button>
+                <label for="search" class="">
+                    <input type="text" id="search"
+                    placeholder="search">
+                </label>
+                <button class="alert"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>bell</title>
+                    <path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21" /></svg></button>
                 <div class="icon"><img src="" alt="icon"/></div>
                 <p>Violet P</p>
             </div>
+
         </div>
         <div class="sidebar">
             <ul class="side-up">
-                <li>Dashboard</li>
-                <li>Project</li>
-                <li>Account</li>
-                <li>1</li>
-                <li>2</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>view-dashboard-edit</title>
+                    <path d="M21 13.1C20.9 13.1 20.7 13.2 20.6 13.3L19.6 14.3L21.7 16.4L22.7 15.4C22.9 15.2 22.9 14.8 22.7 14.6L21.4 13.3C21.3 13.2 21.2 13.1 21 13.1M19.1 14.9L13 20.9V23H15.1L21.2 16.9L19.1 14.9M21 9H13V3H21V9M13 18.06V11H21V11.1C20.24 11.1 19.57 11.5 19.19 11.89L13 18.06M11 13H3V3H11V13M11 21H3V15H11V21Z" />
+                    </svg>Dashboard
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>file-document</title>
+                    <path d="M13,9H18.5L13,3.5V9M6,2H14L20,8V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V4C4,2.89 4.89,2 6,2M15,18V16H6V18H15M18,14V12H6V14H18Z" />
+                    </svg>Project
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>calendar</title>
+                    <path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+                    </svg>Event
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>message-reply-text</title>
+                    <path d="M18,8H6V6H18V8M18,11H6V9H18V11M18,14H6V12H18V14M22,4A2,2 0 0,0 20,2H4A2,2 0 0,0 2,4V16A2,2 0 0,0 4,18H18L22,22V4Z" />
+                    </svg>Message
+                </li>
             </ul>
-            <hr class="solid">
+            
             <ul class="side-down">
-                <li>Setting</li>
-                <li>11</li>
-                <li>Account</li>
-                <li>1</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>account</title>
+                    <path d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z" />
+                    </svg>Account
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>cog</title>
+                    <path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" />
+                    </svg>Setting
+                </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>help-circle</title>
+                    <path d="M15.07,11.25L14.17,12.17C13.45,12.89 13,13.5 13,15H11V14.5C11,13.39 11.45,12.39 12.17,11.67L13.41,10.41C13.78,10.05 14,9.55 14,9C14,7.89 13.1,7 12,7A2,2 0 0,0 10,9H8A4,4 0 0,1 12,5A4,4 0 0,1 16,9C16,9.88 15.64,10.67 15.07,11.25M13,19H11V17H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" />
+                    </svg>Support
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>shield-alert</title>
+                    <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5M11,7H13V13H11M11,15H13V17H11" />
+                    </svg>Privacy
+                </li>
             </ul>
         </div>
-        <div class="mainboard">
-            <div class="main-up">
+        <div class="mainBoard">
+            <div class="main-left">
                 <div class="main-up-left frame">
-                    <div class="greet-container ">
+                    <div class="greet-container">
                         <p class="greet-name">Hello Violet,</p>
-                        <p class="greeting-time">Good Morning</p>
+                        <p class="greet-time"></p>
                     </div>
                     <div class="fast-button">
                         <button>Add Project</button>
-                        <button>Add Event</button>
+                        <button>Add Meeting</button>
                     </div>
                 </div>
+                <div class="main-down-left frame">
+                    <div class="title-bar">
+                        <h3>Project</h3>
+                        <p class="view">View All</p>
+                    </div>
+                    <div class="project-container">
+                        <div class="project">
+                            <p class="title">Title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                            <div class="project-footer">
+                                <div class="note">
+                                <p class="urgent">URGENT</p>
+                                <p class="inprogress">IN PROGRESS</p>
+                                </div>
+                                <p class="dueDate">12 DAYS LEFT</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="title">Title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                            <div class="project-footer">
+                                <div class="note">
+                                <p class="urgent">URGENT</p>
+                                <p class="inprogress">IN PROGRESS</p>
+                                </div>
+                                <p class="dueDate">3 DAYS LEFT</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="title">Title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                            <div class="project-footer">
+                                <div class="note">
+                                <p class="open">NEW</p>
+                                <p class="inprogress">IN PROGRESS</p>
+                                </div>
+                                <p class="dueDate">20 DAYS LEFT</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="title">Title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                            <div class="project-footer">
+                                <div class="note">
+                                <p class="completed">COMPLETED</p>
+                                </div>
+                                <p class="dueDate">10 DAYS LEFT</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="title">Title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                            <div class="project-footer">
+                                <div class="note">
+                                <p class="urgent">URGENT</p>
+                                <p class="completed">COMPLETED</p>
+                                </div>
+                                <p class="dueDate">8 DAYS LEFT</p>
+                            </div>
+                        </div>
+                        <div class="project">
+                            <p class="title">Title</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+                            <div class="project-footer">
+                                <div class="note">
+                                <p class="open">NEW</p>
+                                <p class="inprogress">IN PROGRESS</p>
+                                </div>
+                                <p class="dueDate">12 DAYS LEFT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="main-right">
                 <div class="main-up-right ">
                     <div class="target frame">
-                        target
+                            <div>
+                                <h4>Target</h4>
+                            </div>
+                        <div class="task">
+                            <p style="color: #c24273;">URGENT</p>
+                            <p class="taskNum">4</p>
+                        </div>
+                        <div class="task">
+                            <p style="color:rgb(199, 140, 52)">PROGRESS</p>
+                            <p class="taskNum">8</p>
+                        </div>
+                        <div class="task">
+                            <p style="color:rgb(70, 70, 187)">COMPLETED</p>
+                            <p class="taskNum">3</p>
+                        </div>
                     </div>
-                    <div class="something frame">
-                        something
+                    <div class="calender frame">
+                        <div>
+                            <h4>Calender</h4>
+                        </div>
                     </div>
                 </div>  
-            </div>
-            <div class="main-down">
-                    <div class="main-down-left frame">
-                        <h3 class="big-title">Project</h3>
-                        <div class="project-container">
-                            <div class="project">
-                                <p class="title">Article Title</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                                <p class="update">Last Update: <br />11:20:58 28 NOV 2023</p>
-                            </div>
-                            <div class="project">
-                                <p class="title">Article Title</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                                <p class="update">Last Update: <br />09:11:21 28 NOV 2023</p>
-                            </div>
-                            <div class="project">
-                                <p class="title">Article Title</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                                <p class="update">Last Update:  <br />18:52:11 27 NOV 2023</p>
-                            </div>
-                            <div class="project">
-                                <p class="title">Article Title</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                                <p class="update">Last Update: <br />17:10:18 27 NOV 2023</p>
-                            </div>
-                            <div class="project">
-                                <p class="title">Article Title</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                                <p class="update">Last Update: <br />18:02:17 26 NOV 2023</p>
-                            </div>
-                            <div class="project">
-                                <p class="title">Article Title</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
-                                <p class="update">Last Update: <br />13:00:05 26 NOV 2023</p>
-                            </div>
-                        </div>
-                    </div>
                 <div class="main-down-right">
-                    <div class="news-container frame">
-                        <h3 class="big-title">News and Event</h3>
-                        <div class="news">
-                            <div class="date">
-                                <p class="day">24</p>
-                                <p class="month">NOV</p>
-                            </div>
-                            <div class="new-content">
-                            <p class="title">News1</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisci...</p>
-                            </div>
+                    <div class="meet-container frame">
+                        <div class="title-bar">
+                            <h3>Meeting</h3>
+                            <p class="view">View All</p>
                         </div>
-                        <div class="news">
+                        <div class="meet">
                             <div class="date">
                                 <p class="day">20</p>
                                 <p class="month">NOV</p>
                             </div>
-                            <div class="new-content">
-                            <p class="title">News2</p>
+                            <div class="meet-content">
+                            <p class="title">meet1</p>
+                            <p class="time">10:30 - 11:30</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisci...</p>
                             </div>
                         </div>
-                        <div class="news">
+                        <div class="meet">
                             <div class="date">
-                                <p class="day">18</p>
+                                <p class="day">21</p>
                                 <p class="month">NOV</p>
                             </div>
-                            <div class="new-content">
-                            <p class="title">News3</p>
+                            <div class="meet-content">
+                            <p class="title">meet2</p>
+                            <p class="time">9:30 - 10:00</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisci...</p>
+                            </div>
+                        </div>
+                        <div class="meet">
+                            <div class="date">
+                                <p class="day">21</p>
+                                <p class="month">NOV</p>
+                            </div>
+                            <div class="meet-content brown-border">
+                                <p class="title">meet3</p>
+                                <p class="time">11:00 - 12:00</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisci...</p>
                             </div>
                         </div>
                     </div>
                     <div class="message-container frame">
-                        <h3>Message</h3>
+                        <div class="title-bar">
+                            <h3>Message</h3>
+                            <p class="view">View All</p>
+                        </div>
                         <div class="message">
                             <div class="icon"><img src="" alt="icon"></div>
                             <div class="message-content">
@@ -152,10 +253,11 @@
                             </div>
                         </div>
                     </div>
-                                </div>
-                </div>
+                  </div>
+            </div>
         </div>
     </div>
-    
+    <script src="./java.js"></script>
+
 </body>
 </html>
